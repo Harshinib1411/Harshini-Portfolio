@@ -16,12 +16,12 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/45 backdrop-blur-2xl">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/55 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8 lg:px-12">
         <a href="#home" className="flex items-center gap-3">
           <img
             alt="Built by Harshini logo"
-            className="h-10 w-10 rounded-lg object-cover shadow-[0_0_28px_rgba(168,85,247,0.65)]"
+            className="h-10 w-10 rounded-lg object-cover shadow-[0_0_22px_rgba(168,85,247,0.45)]"
             src="/brand-logo.svg"
           />
           <span className="text-sm font-semibold uppercase tracking-[0.22em] text-white">

@@ -85,7 +85,7 @@ export const projects: Project[] = [
     description:
       'AI calling workflow built for startup operations using n8n and Retell AI to support automated interaction flows.',
     impact: 'AI-assisted calling operations',
-    stack: ['n8n', 'Retell AI', 'Workflow Automation', 'APIs'],
+    stack: ['n8n', 'Retell AI', 'Workflow Automation'],
     highlights: [
       'Built workflow automation using n8n and Retell AI.',
       'Automated startup calling operations.',

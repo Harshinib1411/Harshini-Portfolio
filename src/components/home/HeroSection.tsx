@@ -9,7 +9,7 @@ import { GlassCard } from '../ui/GlassCard'
 import { FloatingParticles } from './FloatingParticles'
 import { HeroStats } from './HeroStats'
 
-const stackPills = ['Python', 'SQL', 'Power BI', 'React', 'n8n', 'Retell AI', 'YOLOv9', 'Canva']
+const stackPills = ['Python', 'SQL', 'Power BI', 'React', 'n8n', 'YOLOv9', 'Canva']
 
 export function HeroSection() {
   const heroRef = useRef<HTMLElement>(null)

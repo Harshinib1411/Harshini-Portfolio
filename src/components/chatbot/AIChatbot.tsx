@@ -66,7 +66,7 @@ function createAssistantReply(question: string): Message {
   if (hasAny(['skill', 'tools', 'tech stack'])) {
     return {
       role: 'assistant',
-      text: 'Her skill set includes Python, SQL, Power BI, Tableau, Excel, Pandas, NumPy, Scikit-learn, YOLOv9, OpenCV, React, n8n, Retell AI, Canva, branding, and campaign design.',
+      text: 'Her skill set includes Python, SQL, Power BI, Tableau, Excel, Pandas, NumPy, Scikit-learn, YOLOv9, OpenCV, React, n8n, Canva, branding, and campaign design.',
       links: [pageLinks.skills],
     }
   }
